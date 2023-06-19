@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    border:solid 10px red;
+    height: 120vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* 
+    flex-direction --> irá inverter os eixos 
+    da nossa caixa.
+
+    row ---> padrão do flexbox irá colocar
+    todos os nossos elementos em uma única linha.
+    row-reverse ---> irá colocar
+    todos os nossos elementos em uma única linha, irá inverter o posicionamento dos nossos elementos.
+    
+    column --> irá colocar os nossos elementos em
+    coluna, um embaixo do outro.
+    
+    column-reverse --> irá colocar os nossos elementos em coluna, um embaixo do outro com
+    o posicionamento invertido.
+
+
+    
+    */
+}
+div{
+    width: 20vw;
+    height: 25vh;
+}
+.azul{
+  background-color: blue;  
+}
+.tomato{
+    background-color: tomato;
+}
+.cinza{
+    background-color: grey;
+}
+.violeta{
+    background-color: violet;
+}
